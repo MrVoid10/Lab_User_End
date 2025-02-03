@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1 class="centered-text">Contact Us</h1>
+    <button class="action_button"  onclick="location.href='/'">Back</button>
+
+    
+    <form id="contactForm" class="centered-text form-container" enctype="multipart/form-data">
+      <!-- Câmpuri de text -->
+      <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone">
+      </div>
+  
+      <!-- Casete de selectare și butoane radio -->
+      <div class="form-group">
+          <label for="newsletter">Subscribe to Newsletter:</label>
+          <input type="checkbox" id="newsletter" name="newsletter">
+      </div>
+      <div class="form-group">
+          <label>Preferred Contact Method:</label>
+          <input type="radio" id="email_contact" name="contact_method" value="email" checked>
+          <label for="email_contact">Email</label>
+          <input type="radio" id="phone_contact" name="contact_method" value="phone">
+          <label for="phone_contact">Phone</label>
+      </div>
+  
+      <!-- Listă dropdown -->
+      <div class="form-group">
+          <label for="category">Category:</label>
+          <select id="category" name="category">
+              <option value="general">General Inquiry</option>
+              <option value="support">Support</option>
+              <option value="feedback">Feedback</option>
+          </select>
+      </div>
+  
+      <!-- Câmp de încărcare a fișierelor -->
+      <div class="form-group">
+          <label for="file_upload">Upload File:</label>
+          <input type="file" id="file_upload" name="file_upload">
+      </div>
+  
+      <!-- Buton de trimitere -->
+      <div class="form-group">
+          <button type="button" onclick="submitForm()">Submit</button>
+      </div>
+  </form>
+  
+  <script>
+      async function submitForm() {
+          const form = document.getElementById('contactForm');
+          const formData = new FormData(form);  // Aceasta va include și fișierul
+  
+          const response = await fetch('/submit_contact_form', {
+              method: 'POST',
+              body: formData  // Trimitem ca FormData, nu JSON
+          });
+  
+          const result = await response.json();
+          alert(result.message);
+      }
+  </script>  
+</body>
+</html>
