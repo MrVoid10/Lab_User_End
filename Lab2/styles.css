@@ -1,0 +1,234 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #333;
+}
+
+/* 🌈 Gradient Multicolor pentru Titlu */
+h1 {
+  margin: 0;
+  font-size: 24px;
+  background: linear-gradient(90deg, #ff00ff, #ff4500, #ffd700, #00ff00, #00ffff, #0000ff, #800080);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradientAnimation 4s infinite linear;
+}
+
+/* 🌈 Gradient Animat */
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+button {
+  background: linear-gradient(90deg, #bb86fc, #03dac6);
+  color: #121212;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #03dac6, #bb86fc);
+}
+
+/* Restul stilurilor rămân la fel */
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 800px;
+}
+
+.box {
+  background-color: #1f1f1f;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  border-top: 2px solid #333;
+}
+
+input[type="date"] {
+  background-color: #333; /* Fundal întunecat */
+  color: #e0e0e0; /* Text deschis pentru vizibilitate */
+  padding: 8px;
+  border: 2px solid #bb86fc; /* Bordură violet pentru un contrast puternic */
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 150px;
+  transition: background-color 0.3s, border-color 0.3s; /* Efect de tranziție la hover */
+}
+
+input[type="date"]:hover {
+  background-color: #444; /* Fundal puțin mai deschis la hover */
+  border-color: #03dac6; /* Bordură verde la hover */
+}
+
+input[type="date"]:focus {
+  outline: none; /* Elimină bordura implicită la focus */
+  background-color: #555; /* Schimbă fundalul la focus */
+  border-color: #03dac6; /* Bordură verde la focus */
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* Schimbă culoarea iconiței în dark mode */
+}
+
+
+/* Footer stilizare*/
+footer {
+  background: linear-gradient(90deg, #1f1f1f, #222, #1f1f1f);
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 30px;
+  border-top: 2px solid #333;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #bb86fc;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 8px 0;
+}
+
+.footer-section a {
+  color: #e0e0e0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #03dac6;
+  text-decoration: underline;
+}
+
+/* Social Media Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: brightness(0.8);
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+  filter: brightness(1);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #aaa;
+  padding-top: 10px;
+  border-top: 1px solid #444;
+}
+
+
+/* 📱 MEDIA QUERY - iPhone Specific */
+@media only screen and (max-width: 430px) and (max-height: 932px) {
+  header {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  button {
+    padding: 7px 10px;
+    font-size: 12px;
+  }
+}
+
+/* 📱 Telefoane (portrait) - Fundal roșu */
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  body {
+      background-color: #ff0000; /* Roșu */
+  }
+}
+
+/* 📱 Telefoane (landscape) - Fundal roz */
+@media screen and (max-width: 900px) and (orientation: landscape) {
+  body {
+      background-color: #ff66b2; /* Roz */
+  }
+}
+
+/* 📱 Tablete (portrait) - Fundal portocaliu */
+@media screen and (min-width: 601px) and (max-width: 900px) and (orientation: portrait) {
+  body {
+      background-color: #ff8800; /* Portocaliu */
+  }
+}
+
+/* 📱 Tablete (landscape) - Fundal galben */
+@media screen and (min-width: 601px) and (max-width: 1200px) and (orientation: landscape) {
+  body {
+      background-color: #ffff00; /* Galben */
+  }
+}
