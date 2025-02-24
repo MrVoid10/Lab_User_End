@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertor Fusuri Orare</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="orase_ecran.js"></script>
+    <script src="conversii_Date_Ore.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Convertor Fusuri Orare</h1>
+    </header>
+    <main>
+        <div class="content">
+            <div class="box">
+                <h2>Convertire Ora intre 2 locatii</h2>
+                <label for="inputTime">Introdu ora (HH:MM):</label>
+                <input type="time" id="inputTime">
+                <br>
+                <label for="fromCity">Selectează orașul de pornire:</label>
+                <select id="fromCity"></select>
+                <br>
+                <label for="toCity">Selectează orașul de destinație:</label>
+                <select id="toCity"></select>
+                <br>
+                <button onclick="convertTime()">Convertește</button>
+                <p id="outputTime"></p>
+            </div>
+            <div class="box">
+                <h2>Convertire Data și Ora</h2>
+                <label for="inputDateTime">Introdu data și ora:</label>
+                <input type="datetime-local" id="inputDateTime">
+                <br>
+                <label for="fromCityDateTime">Selectează orașul de pornire:</label>
+                <select id="fromCityDateTime"></select>
+                <br>
+                <label for="toCityDateTime">Selectează orașul de destinație:</label>
+                <select id="toCityDateTime"></select>
+                <br>
+                <button onclick="convertDateTime()">Convertește Data și Ora</button>
+                <p id="outputDateTime"></p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Continuarea Fisierului, doar Footerul -->
+    <footer>
+      <div class="footer-container">
+          <div class="footer-section">
+              <h3>Legături rapide</h3>
+              <ul>
+                  <li><a href="../main.html">Acasă</a></li>
+                  <li><a href="#">Despre</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Servicii</a></li>
+                  <li><a href="#">Politica de confidențialitate</a></li>
+              </ul>
+          </div>
+          <div class="footer-section">
+              <h3>Contact</h3>
+              <p>Email: <a href="mailto:adry4work@gmail.com">adry4work@gmail.com</a></p>
+              <p>Telefon: +373 784 00 000</p>
+          </div>
+          <div class="footer-section">
+              <h3>Urmărește-ne</h3>
+              <div class="social-icons">
+                  <a href="https://www.facebook.com/Adry.baban"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"></a>
+                  <a href="https://www.instagram.com/mr_void26"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram"></a>
+                  <a href="https://github.com/MrVoid10"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub"></a>
+              </div>
+          </div>
+      </div>
+      <p class="footer-bottom">&copy; 2025 Pagina Responsivă - Toate drepturile rezervate</p>
+    </footer>
+    <script src="../extra_cod/taste.js"></script>
+  </body>
+</html>
