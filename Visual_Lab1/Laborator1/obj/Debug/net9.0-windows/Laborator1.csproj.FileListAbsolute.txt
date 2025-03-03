@@ -1,0 +1,15 @@
+E:\TEMPORARE\Programarea_client_side\Lab_User_End\Vizual_Lab1\Laborator1\bin\Debug\net9.0-windows\Laborator1.exe
+E:\TEMPORARE\Programarea_client_side\Lab_User_End\Vizual_Lab1\Laborator1\bin\Debug\net9.0-windows\Laborator1.deps.json
+E:\TEMPORARE\Programarea_client_side\Lab_User_End\Vizual_Lab1\Laborator1\bin\Debug\net9.0-windows\Laborator1.runtimeconfig.json
+E:\TEMPORARE\Programarea_client_side\Lab_User_End\Vizual_Lab1\Laborator1\bin\Debug\net9.0-windows\Laborator1.dll
+E:\TEMPORARE\Programarea_client_side\Lab_User_End\Vizual_Lab1\Laborator1\bin\Debug\net9.0-windows\Laborator1.pdb
+E:\TEMPORARE\Programarea_client_side\Lab_User_End\Vizual_Lab1\Laborator1\obj\Debug\net9.0-windows\Laborator1.GeneratedMSBuildEditorConfig.editorconfig
+E:\TEMPORARE\Programarea_client_side\Lab_User_End\Vizual_Lab1\Laborator1\obj\Debug\net9.0-windows\Laborator1.AssemblyInfoInputs.cache
+E:\TEMPORARE\Programarea_client_side\Lab_User_End\Vizual_Lab1\Laborator1\obj\Debug\net9.0-windows\Laborator1.AssemblyInfo.cs
+E:\TEMPORARE\Programarea_client_side\Lab_User_End\Vizual_Lab1\Laborator1\obj\Debug\net9.0-windows\Laborator1.csproj.CoreCompileInputs.cache
+E:\TEMPORARE\Programarea_client_side\Lab_User_End\Vizual_Lab1\Laborator1\obj\Debug\net9.0-windows\Laborator1.sourcelink.json
+E:\TEMPORARE\Programarea_client_side\Lab_User_End\Vizual_Lab1\Laborator1\obj\Debug\net9.0-windows\Laborator1.dll
+E:\TEMPORARE\Programarea_client_side\Lab_User_End\Vizual_Lab1\Laborator1\obj\Debug\net9.0-windows\refint\Laborator1.dll
+E:\TEMPORARE\Programarea_client_side\Lab_User_End\Vizual_Lab1\Laborator1\obj\Debug\net9.0-windows\Laborator1.pdb
+E:\TEMPORARE\Programarea_client_side\Lab_User_End\Vizual_Lab1\Laborator1\obj\Debug\net9.0-windows\Laborator1.genruntimeconfig.cache
+E:\TEMPORARE\Programarea_client_side\Lab_User_End\Vizual_Lab1\Laborator1\obj\Debug\net9.0-windows\ref\Laborator1.dll
