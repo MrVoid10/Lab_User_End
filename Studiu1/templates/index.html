@@ -29,7 +29,15 @@
         </div>
     </footer>
 
-    <script src="../../extra_cod/taste.js"></script>
+    <script>
+      document.addEventListener("keydown", function(event) {
+    // Verifică dacă tasta apăsată este 'Q' sau 'q'
+    if (event.key === "Q" || event.key === "q") {
+        // Redirecționează utilizatorul către pagina "main.html"
+        window.location.href = "../../main.html";
+    }
+});
+    </script>
     <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
 </body>
 </html>
