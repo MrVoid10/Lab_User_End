@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laborator 5</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Laborator 5</h1>
+    </header>
+    <section>
+      <h2>Formular utilizator</h2>
+      <form id="userForm">
+        <label for="firstName">Nume:</label><br>
+        <input type="text" id="firstName" name="firstName" required><br>
+        <label for="lastName">Prenume:</label><br>
+        <input type="text" id="lastName" name="lastName" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="birthDate">Data Nașterii:</label><br>
+        <input type="date" id="birthDate" name="birthDate" required><br><br>
+        <button type="submit">Salvează utilizator</button>
+      </form>
+      <div id="error-message" class="error"></div>
+      <div id="warning-message" class="warning"></div>
+    </section>
+    <section>
+      <div id="user-list">
+        <h3>Utilizatori salvați:</h3>
+        <ul id="users"></ul>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Legături rapide</h3>
+          <ul>
+            <li><a href="../main.html">Acasă</a></li>
+            <li><a href="#">Despre</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Servicii</a></li>
+            <li><a href="#">Politica de confidențialitate</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:adry4work@gmail.com">adry4work@gmail.com</a></p>
+          <p>Telefon: +373 784 00 000</p>
+        </div>
+        <div class="footer-section">
+          <h3>Urmărește-ne</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/Adry.baban"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"></a>
+            <a href="https://www.instagram.com/mr_void26"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram"></a>
+            <a href="https://github.com/MrVoid10"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub"></a>
+          </div>
+        </div>
+      </div>
+      <p class="footer-bottom">&copy; 2025 Pagina Responsivă - Toate drepturile rezervate</p>
+    </footer>
+    <script src="../extra_cod/taste.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

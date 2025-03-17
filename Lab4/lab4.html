@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laborator 4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Client side functii()</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Prelucrarea tablourilor cu numere</h2>
+            <input type="number" id="numInput" placeholder="Adaugă număr">
+            <button onclick="addNumber()">Adaugă</button>
+            <button onclick="sortNumbers()">Sortează</button>
+            <p id="arrayOutput">Tabloul: []</p>
+        </section>
+
+        <section>
+          <h2>Tablouri cu Stringuri</h2>
+          <input type="text" id="strInput" placeholder="Adaugă un cuvânt">
+          <button onclick="addString()">Adaugă</button>
+          <button onclick="sortStrings()">Sortează</button>
+          <p id="stringOutput">Șiruri: []</p>
+      </section>
+        
+        <section>
+            <h2>Evenimente (Mouse, Tastatură, Fereastră)</h2>
+            <button id="hoverButton">Plasează cursorul</button>
+            <p id="keyEvent">Apasă o tastă...</p>
+            <p id="windowSize">Dimensiuni: </p>
+        </section>
+        
+        <section>
+            <h2>Elemente interactive</h2>
+            <button onclick="generateBox()">Generează pătrat</button>
+            <div id="boxContainer"></div>
+        </section>
+    </main>
+    
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Legături rapide</h3>
+          <ul>
+            <li><a href="../main.html">Acasă</a></li>
+            <li><a href="#">Despre</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Servicii</a></li>
+            <li><a href="#">Politica de confidențialitate</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:adry4work@gmail.com">adry4work@gmail.com</a></p>
+          <p>Telefon: +373 784 00 000</p>
+        </div>
+        <div class="footer-section">
+          <h3>Urmărește-ne</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/Adry.baban"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"></a>
+            <a href="https://www.instagram.com/mr_void26"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram"></a>
+            <a href="https://github.com/MrVoid10"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub"></a>
+          </div>
+        </div>
+      </div>
+      <p class="footer-bottom">&copy; 2025 Pagina Responsivă - Toate drepturile rezervate</p>
+    </footer>  
+
+    <script src="../extra_cod/taste.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
