@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\Baban_Lab2\Laborator3\bin\Release\Laborator3.exe.config
+C:\Users\User\Desktop\Baban_Lab2\Laborator3\bin\Release\Laborator3.exe
+C:\Users\User\Desktop\Baban_Lab2\Laborator3\bin\Release\Laborator3.pdb
+C:\Users\User\Desktop\Baban_Lab2\Laborator3\obj\Release\Laborator3.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Baban_Lab2\Laborator3\obj\Release\Laborator3.testRdBtnForm.resources
+C:\Users\User\Desktop\Baban_Lab2\Laborator3\obj\Release\Laborator3.Properties.Resources.resources
+C:\Users\User\Desktop\Baban_Lab2\Laborator3\obj\Release\Laborator3.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Baban_Lab2\Laborator3\obj\Release\Laborator3.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Baban_Lab2\Laborator3\obj\Release\Laborator3.exe
+C:\Users\User\Desktop\Baban_Lab2\Laborator3\obj\Release\Laborator3.pdb
