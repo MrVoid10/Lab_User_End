@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\Baban_Lab2\Laborator4\obj\Debug\Laborator4.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Baban_Lab2\Laborator4\obj\Debug\Laborator4.MenuForm.resources
+C:\Users\User\Desktop\Baban_Lab2\Laborator4\obj\Debug\Laborator4.Properties.Resources.resources
+C:\Users\User\Desktop\Baban_Lab2\Laborator4\obj\Debug\Laborator4.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Baban_Lab2\Laborator4\obj\Debug\Laborator4.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Baban_Lab2\Laborator4\bin\Debug\Laborator4.exe.config
+C:\Users\User\Desktop\Baban_Lab2\Laborator4\bin\Debug\Laborator4.exe
+C:\Users\User\Desktop\Baban_Lab2\Laborator4\bin\Debug\Laborator4.pdb
+C:\Users\User\Desktop\Baban_Lab2\Laborator4\obj\Debug\Laborator4.exe
+C:\Users\User\Desktop\Baban_Lab2\Laborator4\obj\Debug\Laborator4.pdb
